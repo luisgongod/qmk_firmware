@@ -15,6 +15,8 @@
  */
 #include QMK_KEYBOARD_H
 
+#include "g/keymap_combo.h"
+#include <stdio.h>
 enum layer_names {
     _BASE,
     _LOWER,

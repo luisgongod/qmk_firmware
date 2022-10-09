@@ -1,0 +1,45 @@
+COMB(qw,      KC_EXCLAIM,          KC_Q, KC_W)
+COMB(we,      KC_PERCENT,               KC_W, KC_E) 
+COMB(er,      KC_UNDERSCORE,          KC_E, KC_R) 
+COMB(rt,      KC_EQUAL,          KC_R, KC_T) 
+
+COMB(as,      KC_AMPERSAND,          KC_A, KC_S) 
+COMB(sd,      KC_ESC,          KC_S, KC_D) 
+COMB(df,      KC_COLON,          KC_D, KC_F) 
+COMB(fg,      KC_HASH,          KC_F, KC_G) 
+
+COMB(zx,      KC_LEFT_CURLY_BRACE,          KC_Z, KC_X) 
+COMB(xc,      KC_LEFT_BRACKET	,          KC_X, KC_C) 
+COMB(cv,      KC_LEFT_PAREN,          KC_C, KC_V) 
+COMB(vb,      KC_LEFT_ANGLE_BRACKET,          KC_V, KC_B) 
+
+COMB(po,      KC_QUESTION,          KC_P, KC_O) 
+COMB(oi,      KC_QUOTE,          KC_O, KC_I) 
+COMB(iu,      KC_DOUBLE_QUOTE,          KC_I, KC_U) 
+COMB(uy,      KC_KP_PLUS,          KC_U, KC_Y) 
+
+COMB(semi_l,  KC_BACKSLASH,          KC_SEMICOLON, KC_L) 
+COMB(lk,      KC_ENTER,          KC_L, KC_K) 
+COMB(kj,      KC_BACKSPACE,          KC_K, KC_J) 
+COMB(jh,      KC_KP_MINUS,          KC_J, KC_H) 
+
+COMB(slash_dot ,   KC_RIGHT_CURLY_BRACE,          KC_SLASH, KC_DOT) 
+COMB(dot_comma,         KC_RIGHT_BRACKET,          KC_DOT, KC_COMMA) 
+COMB(comma_m,           KC_RIGHT_PAREN,          KC_COMMA, KC_M) 
+COMB(mn,               KC_RIGHT_ANGLE_BRACKET,          KC_M, KC_N) 
+
+COMB(qwe,      KC_GRAVE,          KC_Q, KC_W, KC_E) 
+COMB(wer,      KC_DOLLAR,          KC_W, KC_E, KC_R) 
+COMB(asd,      KC_CAPS_LOCK,          KC_A, KC_S, KC_D) 
+COMB(sdf,      KC_HOME,          KC_S, KC_D, KC_F) 
+COMB(zxc,      KC_PIPE,          KC_Z, KC_X, KC_C)  
+COMB(xcv,      KC_AT,          KC_X, KC_C, KC_V) 
+
+COMB(poi,                    KC_TILDE,          KC_P, KC_O, KC_I) 
+COMB(oiu,                    KC_CIRCUMFLEX,          KC_O, KC_I, KC_U) 
+COMB(semi_lk,                KC_LEFT_GUI,          KC_SEMICOLON, KC_L, KC_K) 
+COMB(lkj,                    KC_END,          KC_L, KC_K, KC_J) 
+COMB(slash_dot_comma,    KC_KP_SLASH,          KC_SLASH, KC_DOT, KC_COMMA) 
+COMB(dot_comma_m,            KC_KP_ASTERISK,          KC_DOT , KC_COMMA, KC_M) 
+
+COMB(uo,      KC_MS_BTN3,          KC_U, KC_O) 
