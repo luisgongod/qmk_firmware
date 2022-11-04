@@ -43,3 +43,5 @@ COMB(slash_dot_comma,    KC_KP_SLASH,          KC_SLASH, KC_DOT, KC_COMMA)
 COMB(dot_comma_m,            KC_KP_ASTERISK,          KC_DOT , KC_COMMA, KC_M) 
 
 COMB(uo,      KC_MS_BTN3,          KC_U, KC_O) 
+COMB(n4n5,      KC_BACKSLASH,          KC_4, KC_5) 
+COMB(n5n6,      KC_ENTER,          KC_6, KC_5)
