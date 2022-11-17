@@ -4,8 +4,8 @@
     "url": "",
     "maintainer": "gtips",
     "usb": {
-        "vid": "0x7807",
-        "pid": "0xDCCB",
+        "vid": "0x4653",
+        "pid": "0x0001",
         "device_version": "0.0.1"
     },
     "layouts": {

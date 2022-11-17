@@ -3,6 +3,8 @@
 #pragma once
 
 //#define USE_MATRIX_I2C
+#define TAPPING_TOGGLE 2
+#define RGBLIGHT_LIMIT_VAL 120
 
 /* Select hand configuration */
 
@@ -27,3 +29,4 @@
 
 #define COMBO_VARIABLE_LEN
 #define COMBO_TERM 50
+#define USB_MAX_POWER_CONSUMPTION 200
