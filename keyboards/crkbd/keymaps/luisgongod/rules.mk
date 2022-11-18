@@ -6,3 +6,4 @@ LTO_ENABLE      = yes
 
 VPATH  +=  keyboards/gboards/
 COMBO_ENABLE=yes
+SEND_STRING_ENABLE = yes

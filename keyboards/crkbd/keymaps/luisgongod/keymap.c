@@ -5,6 +5,15 @@
 #include QMK_KEYBOARD_H
 #include "g/keymap_combo.h"
 #include <stdio.h>
+#include "quantum.h"
+#include "credentials.h"
+
+enum custom_keycodes {
+    S_OC = SAFE_RANGE,
+    S_BU,
+};
+
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT_split_3x6_3(
@@ -47,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, QK_BOOT, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, S_OC, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, RGB_SAI, RGB_VAI, RGB_HUI, RGB_MOD,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -59,6 +68,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+    case S_OC:
+        if (record->event.pressed) {
+            // when keycode QMKBEST is pressed
+        } else {
+            SEND_STRING(S_CATCHPHRASE);
+            // when keycode QMKBEST is released
+        }
+        break;
+    case S_BU:
+        if (record->event.pressed) {
+        
+        } else {
+            SEND_STRING(S_BUBU);
+            
+        }
+        break;
+    }
+    return true;
+};
 
 // layer_state_t layer_state_set_user(layer_state_t state) {
 //     switch (get_highest_layer(state)) {
