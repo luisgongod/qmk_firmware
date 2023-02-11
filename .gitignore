@@ -99,3 +99,4 @@ via*.json
 # User-specific files
 keyboards/coseyfannitutti/mysterium/keymaps/luisgongod/credentials.h
 keyboards/crkbd/keymaps/luisgongod/credentials.h
+keyboards/omkbd/ergodash/rev1/keymaps/luisgongod/credentials.h

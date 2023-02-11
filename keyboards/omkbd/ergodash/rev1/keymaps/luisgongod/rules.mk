@@ -1,3 +1,9 @@
 BACKLIGHT_ENABLE = no
 RGBLIGHT_ENABLE = no
 AUDIO_ENABLE = no
+
+MOUSEKEY_ENABLE = yes    # Mouse keys
+
+VPATH  +=  keyboards/gboards/
+COMBO_ENABLE=yes
+SEND_STRING_ENABLE = yes
