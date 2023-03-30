@@ -8,3 +8,8 @@ EXTRAKEY_ENABLE = yes
 VPATH  +=  keyboards/gboards/
 COMBO_ENABLE=yes
 SEND_STRING_ENABLE = yes
+
+MOUSEKEY_ENABLE = yes    # Mouse keys
+
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
