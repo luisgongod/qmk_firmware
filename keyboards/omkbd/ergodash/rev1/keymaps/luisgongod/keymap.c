@@ -6,6 +6,9 @@
 #include "credentials.h"
 
 
+//go to https://jhelvy.shinyapps.io/qmkjsonconverter/ to convert json to c code
+
+
 
 enum custom_keycodes {
     S_OC = SAFE_RANGE,
