@@ -60,7 +60,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         if (record->event.pressed) {
             // when keycode QMKBEST is pressed
         } else {
-            SEND_STRING(S_CATCHPHRASE);
+            SEND_STRING(P_OC);
             // when keycode QMKBEST is released
         }
         break;
@@ -68,7 +68,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         if (record->event.pressed) {
         
         } else {
-            SEND_STRING(S_BUBU);
+            SEND_STRING(P_BUBU);
             
         }
         break;

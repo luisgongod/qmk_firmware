@@ -1,4 +1,4 @@
-
+MOUSEKEY_ENABLE = yes    # Mouse keys
 OLED_ENABLE = no
 OLED_DRIVER = SSD1306
 ENCODER_ENABLE = yes
